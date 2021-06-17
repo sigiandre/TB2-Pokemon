@@ -35,7 +35,7 @@ class Generator {
                             log("Nombre de la prueba: " + this.predict(""))
                             log("Nombre de la prueba: " + this.predict(""))
                             log("Nombre de la prueba: " + this.predict(""))
-                            log("===========================")
+                            log("========================================")
                         }
                     }
                 })
