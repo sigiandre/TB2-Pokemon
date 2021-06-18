@@ -62,7 +62,7 @@
           <div style="display:flex">
             <input 
               style="flex-grow: 1" type="text" placeholder="Primeras letras (o dejar en blanco)" 
-              maxlength="6" onkeypress="return /[a-z]/i.test(event.key)" v-model="input"
+              maxlength="10" onkeypress="return /[a-z]/i.test(event.key)" v-model="input"
               :disabled="trainingModel">
             <b-button 
               style="margin-left: 10px; flex-grow: 0" :disabled="trainingModel"
